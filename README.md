@@ -1,0 +1,113 @@
+# LinkdAPI Python - Unofficial LinkedIn API
+
+A lightweight Python wrapper for [LinkdAPI](https://rapidapi.com/SeasonedCode/api/linkdapi) — the most advanced **unofficial LinkedIn API** you’ll find on RapidAPI. Instead of relying on brittle scrapers or search engine hacks, **LinkdAPI** connects straight to LinkedIn’s own mobile and web endpoints. That means you get access to real-time data with unmatched **reliability**, **stability**, and **scalability** — perfect for developers, analysts, and anyone building tools that tap into LinkedIn at scale.
+
+---
+
+## Why LinkdAPI?
+
+- We **do not rely on search engines** or SERP scraping – all data is retrieved **directly from LinkedIn.**
+- Built for **scale, stability, and accuracy** using direct endpoints.
+- Ideal for **automation**, **data extraction**, **reverse lookup**, and **lead generation**.
+
+---
+
+## 📦 Installation
+
+Simply copy the `linkdapi.py` file into your project directory.
+
+---
+
+## 💻 Usage
+
+```python
+from linkdAPI import LinkdAPI
+
+api_key = "your_rapidapi_key_here"
+client = LinkdAPI(api_key)
+
+# Get profile overview
+profile = client.get_profile_overview("lexfridman")
+print(profile)
+```
+# 📚 LinkdAPI Python - Available Methods & Usage
+
+all available methods in the `LinkdAPI` class.
+
+
+---
+
+## 🔹 Profiles Data
+```python
+get_profile_overview(username)
+get_profile_details(urn)
+get_contact_info(username)
+get_full_experience(urn)
+get_certifications(urn)
+get_education(urn)
+get_skills(urn)
+get_social_matrix(username)
+get_recommendations(urn)
+get_similar_profiles(urn)
+get_profile_about(urn)
+get_profile_reactions(urn, cursor='')
+```
+
+## 🔹 Posts Data
+```python
+get_featured_posts(urn)
+get_all_posts(urn, cursor='', start=0)
+get_post_info(urn)
+get_post_comments(urn, start=0, count=10, cursor='')
+get_post_likes(urn, start=0)
+```
+## 🔹 Comments Data
+```python
+get_all_comments(urn, cursor='')
+get_comment_likes(urns, start=0)
+```
+## 🔹 System
+```python
+get_service_status()
+```
+### More endpoints to come soon...
+
+
+## 📈 Best Use Cases
+
+- **LinkedIn Data Extractor**  
+  Easily automate the process of collecting LinkedIn data at scale—ideal for research, lead generation, and insights.
+- **LinkedIn Profile Scraper**  
+  Access rich and detailed profile information without needing a browser or manual copy-pasting.
+- **Reverse Email Lookup**  
+  Instantly check if an email is linked to a public LinkedIn profile—perfect for verification or enrichment tasks.
+- **LinkedIn Viewer / Profile Viewer**  
+  Quickly explore and analyze public LinkedIn profiles, just like a regular user—but automated.
+- **Exporting Comments & Reactions**  
+  Grab post interactions to better understand sentiment, audience behavior, or engagement trends.
+- **LinkedIn Automation**  
+  Build smarter, more reliable tools that interact with LinkedIn data—without the fragility of browser scraping.
+- **SerpAPI Alternatives**  
+  Get LinkedIn data directly from the source—no need to scrape search engine result pages or deal with CAPTCHAs.
+
+---
+
+## 🏁 Final Thoughts
+
+At its core, **LinkdAPI** is more than just an API—it's a reliable engine for anyone building tools that require access to public LinkedIn data. As the #1 unofficial **LinkedIn scraper** for developers, it empowers you to build robust **LinkedIn automation**, perform advanced **reverse email lookups**, and create scalable **LinkedIn profile viewer** solutions with confidence.
+
+If you're crafting a high-performance **LinkedIn data extractor**, a deep-dive **LinkedIn profile scraper**, or a lightweight **LinkedIn viewer**, **LinkdAPI** delivers the power, performance, and flexibility to do it all—without the headaches of traditional scraping.
+
+---
+
+## 🔗 Useful Links
+
+- [LinkdAPI.com](https://linkdapi.com/)
+- [API Documentation](https://linkdapi.com/docs/intro)
+- [Pricing](https://rapidapi.com/SeasonedCode/api/linkdapi/pricing)
+
+---
+
+## 📜 License
+
+**MIT License** – Use responsibly. This tool is intended strictly for **research and educational purposes**.
