@@ -1,3 +1,5 @@
+![LinkdAPI Favicon](https://linkdapi.com/favicon.ico)
+
 # LinkdAPI Python - Unofficial LinkedIn API
 
 A lightweight Python wrapper for [LinkdAPI](https://rapidapi.com/SeasonedCode/api/linkdapi) — the most advanced **unofficial LinkedIn API** you’ll find on RapidAPI. Instead of relying on brittle scrapers or search engine hacks, **LinkdAPI** connects straight to LinkedIn’s own mobile and web endpoints. That means you get access to real-time data with unmatched **reliability**, **stability**, and **scalability** — perfect for developers, analysts, and anyone building tools that tap into LinkedIn at scale.
