@@ -12,6 +12,7 @@ A lightweight Python wrapper for [LinkdAPI](https://rapidapi.com/SeasonedCode/ap
 - Built for **scale, stability, and accuracy** using direct endpoints.
 - Ideal for **automation**, **data extraction**, **reverse lookup**, and **lead generation**.
 
+![LinkdAPI Hero](https://linkdapi.com/hero.jpg)
 ---
 
 ## 📦 Installation
